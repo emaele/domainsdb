@@ -5,7 +5,8 @@
 Domainsdb API wrapper written in Go
 
 ## Usage
-```package main
+```go
+package main
 
 import (
 	"fmt"
@@ -21,4 +22,5 @@ func main() {
 	}
 
 	fmt.Printf("%#v", a.Domains[0])
-}```
+}
+```
