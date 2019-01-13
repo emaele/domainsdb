@@ -11,7 +11,8 @@ import (
 func SearchForDomain(query string) (Result, error) {
 	var result Result
 
-	resp, err := http.Get(endpoint)
+	url := endpoint + query
+	resp, err := http.Get(url)
 
 	body, err := ioutil.ReadAll(resp.Body)
 	if err != nil {
