@@ -1,4 +1,7 @@
 # domainsdb
+[![GoDoc](https://godoc.org/github.com/emaele/domainsdb?status.svg)](https://godoc.org/github.com/emaele/domainsdb)
+
+
 Domainsdb API wrapper written in Go
 
 ## Usage
